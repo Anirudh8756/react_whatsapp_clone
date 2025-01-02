@@ -1,12 +1,10 @@
-import { Provider, provider } from 'react-redux';
+import { Provider } from 'react-redux';
 import appstore from './redux/Store';
-
+import Zuzapp from './Zuzapp';
 function App() {
   return (
     <Provider store={appstore}>
-      <div>
-        <h1>App</h1>
-      </div>
+      <Zuzapp/>
     </Provider>
   );
 }
