@@ -1,0 +1,36 @@
+@import "./Props.scss";
+
+
+.green-belt {
+  background-color: #009788;
+  height: 20vh;
+
+}
+
+.messenger {
+  &:before{ 
+    content: ""; 
+    position: absolute;
+
+  }
+}
+
+.messenger {
+  background-color: #fff;
+  top:20px;
+  bottom: 20px;
+  right: 50px;
+  left: 50px;
+  border-radius:3px;
+  box-shadow: 0px 0px 40px #33333336;
+  .inbox{
+    width: 300px;
+    border-right: 1px solid #ddd;
+    margin-top: 10px ;
+    margin-bottom: 10px ;
+  }
+  .chatbox{
+    flex: 1;
+  }
+}
+

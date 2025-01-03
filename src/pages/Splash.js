@@ -1,9 +1,10 @@
 import React from 'react'
-import Logo from "../images/WhatsApp.svg"
+import Logo from "../images/WhatsApp.svg";
+import '../css/Props.scss';
 const Splash = () => {
   return (
     <div classNam={`splash abs`}>
-      <h1 className={`abs abc s30`}>WhatsApp</h1>
+        <img src={Logo} alt="Zuzapp" className="abs abc" />
     </div>
   )
 }
