@@ -1,0 +1,107 @@
+.you a img {
+  height: 30px;
+  width: auto;
+}
+.you a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 50% ;
+  overflow: hidden;
+  height: 30px;
+  width: 30px;
+}
+
+.you {
+  display: flex;
+}
+
+.conversations {
+padding: 10px;
+border-bottom: 1px solid #ccc;
+}
+
+.meta {
+  flex-direction: column !important;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.meta h2 {
+  line-height: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size:18px;
+}
+
+.meta .name {
+  font-weight: 600;
+}
+
+.side-1 {
+  display: flex;
+}
+
+.aic {
+  justify-content: space-between;
+}
+
+.meta .last-mess {
+  font-weight: 400;
+  color: #777;
+  font-size: 16px;
+}
+
+.just-end {
+  justify-content: space-between;
+}
+
+.pinned  {
+  transform: rotate(45deg);
+  border-radius: 50%;
+  background-color: #ccc ;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;  
+}
+.pinned svg {
+  font-size: 10px;
+  align-self: center;
+  transform: translate(6px, 1px);
+}
+.pinned svg path {
+  fill: #f0f0f0;
+}
+
+.msg-count {
+  border-radius: 50%;
+  background-color: #25d366 ;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+.msg-count h1 {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.gap-10 {
+  gap:5px;
+}
+.time {
+  display: flex;
+  justify-content: flex-end;
+}
+.time p {
+  line-height: 3px;
+  font-size:12px;
+  color: #777;
+  font-weight: 600;
+}
+
