@@ -35,4 +35,8 @@ body{
 .flex {
   display: flex;
   flex-direction:row;
+  &.aic{
+    align-items: center;
+    gap:20px
+  }
 }
