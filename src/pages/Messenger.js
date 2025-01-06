@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import '../css/Props.scss';
 import { connect } from 'react-redux';
 import Inbox from './subs/Inbox';
-import Chatbox from './subs/Chatbox';
+import Chatbox from './Chatbox';
 import '../css/App.scss';
 const Messenger = () => {
   return (

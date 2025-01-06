@@ -1,0 +1,52 @@
+.chatinputarea {
+  position: fixed;
+  bottom: 20px;
+  display: flex;
+  background-color: #ece5dd;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  width: calc(100% - 465px);
+}
+
+
+
+.input-box{
+  width: 96%;
+  height: 36px;
+  border-radius: 5px;
+  border:1px solid white;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.input-box:focus {
+  outline: none; 
+}
+
+.emoji svg {
+  width: 18px;
+  height: auto;
+}
+.emoji svg path {
+  fill: rgb(123, 123, 123);
+}
+.send-msg svg {
+  width: 18px;
+  height: auto;
+}
+.send-msg svg path {
+  fill: rgb(123, 123, 123);
+}
+
+.emoji {
+  border: none;
+  background-color: #ece5dd;  
+}
+.send-msg {
+  border: none;
+  background-color: #ece5dd;  
+}
+
+

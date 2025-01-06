@@ -1,8 +1,16 @@
 import React from 'react'
 import { connect } from 'react-redux';
+import ChatHead from './subs/ChatHead';
+import ChatMessages from './subs/ChatMessages';
+import ChatSendBox from './subs/ChatSendBox';
+import '../css/ChatSendBox.scss';
 const Chatbox = () => {
   return (
-    <div className={`chatbox`}>Chat box</div>
+    <div className={`chatbox rel`}>
+      <ChatHead/>
+      <ChatMessages/>
+      <ChatSendBox/>
+    </div>
   )
 }
 

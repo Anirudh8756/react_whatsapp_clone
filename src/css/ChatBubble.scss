@@ -1,0 +1,48 @@
+.name {
+  line-height: 1px;
+  font-size:14px;
+}
+
+.text {
+  line-height: 1px;
+  font-size: 12px;
+}
+
+.bubble {
+  width: fit-content;
+}
+
+.bubble {
+  margin: 3px 0px;
+  flex: 1;
+}
+
+.ballon {
+  padding: 1px 12px;
+  border-radius: 8px;
+  background-color: #fff;
+  &:before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    top: 20px;
+    transform: rotate(45deg);
+    left: -10px;
+    bottom: 4px;
+    border-radius: 50%;
+  }
+  &:after{ 
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 14px;
+    transform: rotate(45deg);
+    left: -16px;
+    bottom: 2px;
+    border-radius: 50%;
+    background-color: #dddad1;
+  }
+}
