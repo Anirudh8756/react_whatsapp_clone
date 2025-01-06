@@ -6,8 +6,8 @@ const ChatMessages = () => {
     // chathead 
     <div className={`chat rel flex col`}>
       {
-        [0,0,0,0,0,0,0,0,0,0,0,0].map(node=> 
-          <ChatBubble/>
+        [0,0,0,0,0,0,0,0,0,0,0,0].map((node, index)=> 
+          <ChatBubble dir={ index % 2 == 0 ? 1 : 0 } />
         )
       }
       </div>
